@@ -25,8 +25,7 @@ update.packages()   # update all packages already installed
 # install multiple packages at same time
 x=c("ggplot2", "agricolae", "RColorBrewer", "car", "multcomp", "lme4", "lsmeans", "tidyverse")
 
-lapply(x, library, character.only = TRUE)
-lapply(x, library, character.only = TRUE)
+lapply(x, install.packages, character.only = TRUE)
 
 # Set up working directory
 getwd()                 # see current working directory
