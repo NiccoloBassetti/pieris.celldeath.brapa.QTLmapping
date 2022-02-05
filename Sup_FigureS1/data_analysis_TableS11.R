@@ -31,8 +31,6 @@ lapply(x, install.packages, character.only = TRUE)
 getwd()                 # see current working directory
 setwd("path_to_file")	  # set working directory where input datasets are located. 
 
-setwd("C:/Users/nicco/OneDrive - Wageningen University & Research/5_Articles/Chapter_4_QTL_Brassica_rapa/BMC - revision/repeat_analysis")
-
 # Load datasets
 mydata <- read.table(file = "dataset_TableS11.txt",sep = "\t", header = TRUE) 
 names(mydata)
